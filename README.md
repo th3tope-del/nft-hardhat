@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# NFT Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Contract Address
+0x1270988197fa5f1eF6Ce77DC110a5128D141B3c5
 
-Try running some of the following tasks:
+## Network
+BNB Smart Chain Testnet
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## NFT Metadata
+ipfs://bafkreie36bt24b2u3236y32a2zypaafw6vkrbxwjfutvy7ycbvpm7qndpu
+
+## Description
+This project implements an ERC721 NFT using Hardhat.
+The NFT is linked to metadata stored on IPFS via Pinata.
+The contract is deployed to BSC Testnet and NFT minting is performed using MetaMask.
